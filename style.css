@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 20px #474747;
+
+  }
+
+main{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:1em;
+}
+
+div.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#time{
+    text-align: center;
+    font-size: 3em;
+}
+
+  #author{
+      font-size: 2em;
+
+  }
+
+  .crypto{
+      text-align: center;
+  }
+
+  #crypto-pic{
+      /* border: 1px solid red; */
+      display: flex;
+      align-items: center;
+      font-size: 2em;
+  }
+
+  #weather{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;flex-wrap: wrap;
+
+  }
+  #description{
+      width: 50%;
+      
+  }
+  
+  #weather>span{
+      font-size: 2em;
+  }

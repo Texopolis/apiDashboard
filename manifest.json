@@ -1,0 +1,19 @@
+{
+"manifest_version": 2,
+  "name": "Dashboard",
+  "version": "1.0",
+
+  "description": "personal dashboard for me",
+
+  "icons": {
+    "48": "./Downloads/person-logo-icon-png-svg.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["index.js"]
+    }
+  ]
+
+}
