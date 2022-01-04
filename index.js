@@ -4,7 +4,7 @@ fetch ('https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&qu
     // console.log(data)
     document.body.style.backgroundImage=`url(${data.urls.regular})`
     // console.log(data.user.name)
-    document.getElementById('author').innerHTML=`By: ${data.user.name}`
+    // document.getElementById('author').innerHTML=`By: ${data.user.name}`
     })
     .catch(err => {
         document.body.style.backgroundImage=`url("https://images.unsplash.com/photo-1583513702439-2e611c58e93d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDI0NzB8MHwxfHJhbmRvbXx8fHx8fHx8fDE2MzQyNTc5MjQ&ixlib=rb-1.2.1&q=80&w=1080")`
